@@ -33,7 +33,7 @@ int main(){
         }
 
         //////////// Blue Player operations ////////////
-        algorithm_B(board, blue_player, index);
+        algorithm_D(board, blue_player, index);
         board.place_orb(index[0], index[1], &blue_player);
 
         if(rules_violation(blue_player)) return 0;
